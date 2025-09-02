@@ -207,7 +207,7 @@ func EscapeQueryString(rawQuery string) string {
 	return strings.Join(parts, "&")
 }
 
-func DecodeQuery(str string, opts *ParseOptions) (result map[string]interface{}, err error) {
+func Parse(str string, opts *ParseOptions) (result map[string]interface{}, err error) {
 	defer func() {
 		if r := recover(); r != nil {
 			switch v := r.(type) {

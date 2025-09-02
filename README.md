@@ -28,7 +28,7 @@ import (
 )
 
 func main() {
-	result, err := goqs.DecodeQuery("user[name]=Alice&user[age]=30", nil)
+	result, err := goqs.Parse("user[name]=Alice&user[age]=30", nil)
 	if err != nil {
 		panic(err)
 	}
@@ -57,7 +57,7 @@ opts := &goqs.ParseOptions{
 	Depth: 5,
 	// ...other options
 }
-result, err := goqs.DecodeQuery("a.b=1&a.c=2", opts)
+result, err := goqs.Parse("a.b=1&a.c=2", opts)
 ```
 
 See [ParseOptions](https://pkg.go.dev/github.com/globocom/go-qs#ParseOptions) for all available fields.
