@@ -77,6 +77,11 @@ Run tests with:
 go test
 ```
 
+
+## Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on pull requests and issues, including best practices for reporting bugs and comparing with the JavaScript `qs` library.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
