@@ -3,7 +3,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/globocom/go-qs.svg)](https://pkg.go.dev/github.com/globocom/go-qs) [![Unit tests](https://github.com/globocom/go-qs/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/globocom/go-qs/actions/workflows/tests.yaml)
 
-> Parse and decode URL query strings into nested Go data structures. Compatible with [javascript qs](npmjs.com/package/qs).
+> Parse and decode URL query strings into nested Go data structures. Compatible with [javascript qs](https://npmjs.com/package/qs).
 
 ---
 
